@@ -42,8 +42,6 @@ All tasks were performed using the Windows Command Prompt with administrative pr
 - `Password123` → Assigned password
 - `/add` → Creates the account
 
-### Result: The command completed successfully.
-
 This confirms the new local user account was created.
 
 **Screenshot:** New User Created
@@ -51,6 +49,8 @@ This confirms the new local user account was created.
 <img width="500" height="184" alt="Step 2 create a new user" src="https://github.com/user-attachments/assets/5fdb1899-9b04-4178-9aff-4f11e0786068" />
 
 The username `student1` appears in the list of accounts.
+
+### Result: The command completed successfully.
 
 ---
 
@@ -64,8 +64,6 @@ The username `student1` appears in the list of accounts.
 - `student1` → User being added
 - `/add` → Adds user to group
 
-### Result:The command completed successfully.
-
 This confirms `student1` now has administrative privileges.
 
 **Screenshot:** Group addition confirmation 
@@ -73,6 +71,8 @@ This confirms `student1` now has administrative privileges.
 <img width="570" height="193" alt="Step 3 Add user to Administrators Group" src="https://github.com/user-attachments/assets/663ef428-82a7-447c-80e5-60cc9f0a13d9" />
 
 `student1` appears in the Administrators group list.
+
+### Result:The command completed successfully.
 
 ---
 
