@@ -111,9 +111,7 @@ This confirms that `student1` has full control over the folder.
 
 ---
 
-# Step 6: Install Git Using Chocolatey
-
-## Step 6.1: Chocolately Installation
+# Step 6: Chocolately Installation 
 
 A version number confirmed that:
 
@@ -129,7 +127,7 @@ Package managers such as Chocolatey improve system administration efficiency by 
 
 ---
 
-## Step 6.2: Git Installation Process
+## Step 7: Git Installation Process
 
 # Technical Breakdown:
 
@@ -156,7 +154,7 @@ The system downloads and installs Git.
 
 ---
 
-## Step 6.3: Verication of Git Installation
+## Step 8: Verication of Git Installation
 
 After installation, Git was verified using: git --version
 
