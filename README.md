@@ -121,7 +121,7 @@ This confirms that `student1` has full control over the folder.
 
 A version number confirms Chocolatey is installed.
 
-## Screenshot: Chocolatey version output
+**Screenshot:** Chocolatey version output
 
 <img width="273" height="85" alt="step 6 1 Choco Installation" src="https://github.com/user-attachments/assets/3f0bd25b-f7a0-4152-9a32-edb7c7d9ec27" />
 
