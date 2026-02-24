@@ -34,8 +34,6 @@ All tasks were performed using the Windows Command Prompt with administrative pr
 
 # Step 2: Create a New User
 
-### Command Used: net user student1 Password123 /add
-
 ### Command Breakdown:
 - `net user` → Manages user accounts
 - `student1` → Username created
@@ -46,9 +44,9 @@ All tasks were performed using the Windows Command Prompt with administrative pr
 
 This confirms the new local user account was created.
 
-## Screenshot: Successful user creation
+**Screenshot:** Successful user creation <img width="500" height="184" alt="Step 2 create a new user" src="https://github.com/user-attachments/assets/5fdb1899-9b04-4178-9aff-4f11e0786068" />
 
-### Verification (Optional): net user
+# Verification (Optional): net user
 
 The username `student1` appears in the list of accounts.
 
