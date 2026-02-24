@@ -46,7 +46,7 @@ All tasks were performed using the Windows Command Prompt with administrative pr
 
 This confirms the new local user account was created.
 
-**Screenshot:**
+**Screenshot:** New User Created
 
 <img width="500" height="184" alt="Step 2 create a new user" src="https://github.com/user-attachments/assets/5fdb1899-9b04-4178-9aff-4f11e0786068" />
 
@@ -80,13 +80,15 @@ This confirms `student1` now has administrative privileges.
 
 ### Command Used:mkdir C:\ProjectFolder
 
-This creates a new folder named `ProjectFolder` in the C:\ directory.
+New folder named `ProjectFolder` in the C:\ directory have been created.
 
 ### Verification:dir C:\
 
 The folder `ProjectFolder` appears in the directory listing.
 
-## Screenshot: Folder creation confirmation
+**Screenshot:** Folder creation confirmation
+
+<img width="457" height="180" alt="Step 4 create the folder" src="https://github.com/user-attachments/assets/22f2ac77-2162-40d2-bb3d-351931ae48b4" />
 
 ---
 
