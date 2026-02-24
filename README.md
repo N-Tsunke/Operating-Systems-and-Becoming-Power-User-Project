@@ -66,7 +66,9 @@ The username `student1` appears in the list of accounts.
 
 This confirms `student1` now has administrative privileges.
 
-**Screenshot:** Group addition confirmation <img width="570" height="193" alt="Step 3 Add user to Administrators Group" src="https://github.com/user-attachments/assets/663ef428-82a7-447c-80e5-60cc9f0a13d9" />
+**Screenshot:** Group addition confirmation 
+
+<img width="570" height="193" alt="Step 3 Add user to Administrators Group" src="https://github.com/user-attachments/assets/663ef428-82a7-447c-80e5-60cc9f0a13d9" />
 
 `student1` appears in the Administrators group list.
 
