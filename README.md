@@ -131,8 +131,6 @@ Package managers such as Chocolatey improve system administration efficiency by 
 
 ## Step 6.2: Git Installation Process
 
-# Git Installation Process Using Chocolatey
-
 # Technical Breakdown:
 
 - `choco` invokes the Chocolatey package manager.
@@ -159,8 +157,6 @@ The system downloads and installs Git.
 ---
 
 ## Step 6.3: Verication of Git Installation
-
-## Verification of Git Installation
 
 After installation, Git was verified using: git --version
 
