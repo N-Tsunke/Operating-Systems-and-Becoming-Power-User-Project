@@ -103,8 +103,6 @@ The folder `ProjectFolder` appears in the directory listing.
 - `student1` → User receiving permissions
 - `F` → Full control access
 
-### Result:Successfully processed 1 files
-
 This confirms that `student1` has full control over the folder.
 
 ### Verification (Optional):icacls C:\ProjectFolder
@@ -112,6 +110,8 @@ This confirms that `student1` has full control over the folder.
 **Screenshot:** Permission modification confirmation
 
 <img width="534" height="184" alt="Step 5 Grant Full Control Permission" src="https://github.com/user-attachments/assets/9b61167c-63aa-4bb0-920f-f58861381c71" />
+
+### Result:Successfully processed 1 files
 
 ---
 
