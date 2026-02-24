@@ -144,18 +144,17 @@ The system downloads and installs Git.
 
 <img width="650" height="311" alt="Step6 1 Installing Git" src="https://github.com/user-attachments/assets/25302624-68c6-44e7-897c-4abff77d6913" />
 
-<img width="701" height="341" alt="Step 6 2 Installing Git" src="https://github.com/user-attachments/assets/4ea57bb4-c427-4729-84c6-d044bf94b15a" />
-
 ---
 
 ## Step 6.3: Verify Installation
 
 git --version
 
-
 The installed Git version is displayed, confirming successful installation.
 
 ## Screenshot: Git version confirmation
+
+<img width="701" height="341" alt="Step 6 2 Installing Git" src="https://github.com/user-attachments/assets/4ea57bb4-c427-4729-84c6-d044bf94b15a" />
 
 ---
 
