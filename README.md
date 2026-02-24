@@ -28,7 +28,9 @@ All tasks were performed using the Windows Command Prompt with administrative pr
 
 # Step 1: Open Command Prompt as Administrator
 
-**Screenshot:** Administrator Command Prompt window <img width="435" height="145" alt="Step 1 Command prompt" src="https://github.com/user-attachments/assets/cef2aee5-c9e2-4fd8-a386-283553a959d3" />
+**Screenshot:** Administrator Command Prompt window 
+
+<img width="435" height="145" alt="Step 1 Command prompt" src="https://github.com/user-attachments/assets/cef2aee5-c9e2-4fd8-a386-283553a959d3" />
 
 ---
 
