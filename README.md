@@ -133,7 +133,7 @@ Package managers such as Chocolatey improve system administration efficiency by 
 
 # Git Installation Process Using Chocolatey
 
-### Technical Breakdown:
+# Technical Breakdown:
 
 - `choco` invokes the Chocolatey package manager.
 - `install` instructs Chocolatey to retrieve and install a specified package.
@@ -149,12 +149,6 @@ During execution, Chocolatey performed the following operations:
 5. Updated environment variables if necessary.
 
 This method ensures a controlled and repeatable deployment process, which is essential in professional IT environments.
-
-### Command Breakdown:
-- `choco` → Chocolatey package manager
-- `install` → Install a package
-- `git` → Package name
-- `-y` → Automatically accept installation prompts
 
 The system downloads and installs Git.
 
@@ -182,7 +176,7 @@ This verification step confirms operational readiness and validates that the pac
 
 ---
 
-## Technical Significance
+# Technical Significance
 
 The use of Chocolatey demonstrates understanding of:
 
