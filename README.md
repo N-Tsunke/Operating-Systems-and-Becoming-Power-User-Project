@@ -28,14 +28,7 @@ All tasks were performed using the Windows Command Prompt with administrative pr
 
 # Step 1: Open Command Prompt as Administrator
 
-### Procedure:
-1. Click the **Start** button.
-2. Type **cmd**.
-3. Right-click **Command Prompt**.
-4. Select **Run as Administrator**.
-5. Click **Yes** when prompted by User Account Control (UAC).
-
-## Screenshot: Administrator Command Prompt window
+**Screenshot:** Administrator Command Prompt window <img width="970" height="236" alt="Step 1 Command prompt" src="https://github.com/user-attachments/assets/fc3a1061-e01f-4907-bdd4-444952bf9bfb" />
 
 ---
 
