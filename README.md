@@ -117,20 +117,42 @@ This confirms that `student1` has full control over the folder.
 
 # Step 6: Install Git Using Chocolatey
 
-## Step 6.1: Confirm Chocolatey Installation
+## Step 6.1: Chocolately Installation
 
-A version number confirms Chocolatey is installed.
+A version number confirmed that:
+
+- Chocolatey was correctly installed.
+- The system PATH environment variable was properly configured.
+- The CLI could locate and execute the `choco` command.
+
+Package managers such as Chocolatey improve system administration efficiency by eliminating manual downloads, reducing configuration errors, and enabling automated deployments.
 
 **Screenshot:** Chocolatey version output
 
 <img width="273" height="85" alt="step 6 1 Choco Installation" src="https://github.com/user-attachments/assets/3f0bd25b-f7a0-4152-9a32-edb7c7d9ec27" />
 
-
 ---
 
-## Step 6.2: Install Git
+## Step 6.2: Git Installation Process
 
-choco install git -y
+# Git Installation Process Using Chocolatey
+
+### Technical Breakdown:
+
+- `choco` invokes the Chocolatey package manager.
+- `install` instructs Chocolatey to retrieve and install a specified package.
+- `git` identifies the target package from the repository.
+- `-y` automatically accepts all prompts, enabling non-interactive installation.
+
+During execution, Chocolatey performed the following operations:
+
+1. Queried the Chocolatey online repository.
+2. Downloaded the latest stable Git package.
+3. Executed installation scripts.
+4. Configured required system settings.
+5. Updated environment variables if necessary.
+
+This method ensures a controlled and repeatable deployment process, which is essential in professional IT environments.
 
 ### Command Breakdown:
 - `choco` → Chocolatey package manager
@@ -140,19 +162,45 @@ choco install git -y
 
 The system downloads and installs Git.
 
-## Screenshot: Git installation process
+**Screenshot:** Git installation process
 
 <img width="650" height="311" alt="Step6 1 Installing Git" src="https://github.com/user-attachments/assets/25302624-68c6-44e7-897c-4abff77d6913" />
 
 ---
 
-## Step 6.3: Verify Installation
+## Step 6.3: Verication of Git Installation
 
-git --version
+## Verification of Git Installation
+
+After installation, Git was verified using: git --version
+
+This command serves multiple technical purposes:
+
+- Confirms that Git was successfully installed.
+- Verifies that the executable is accessible via the system PATH.
+- Ensures the CLI can properly invoke the Git binary.
+
+If the installation was successful, the system displayed the installed Git version (e.g., `git version 2.xx.x.windows.x`).
+
+This verification step confirms operational readiness and validates that the package manager correctly configured the environment.
+
+---
+
+## Technical Significance
+
+The use of Chocolatey demonstrates understanding of:
+
+- Software package management
+- Automated installation processes
+- Environment variable configuration
+- Command-line system administration
+- Verification and validation of deployed software
+
+In enterprise environments, package managers are essential for maintaining consistency, improving efficiency, and reducing human error during software deployment.
 
 The installed Git version is displayed, confirming successful installation.
 
-## Screenshot: Git version confirmation
+**Screenshot:** Git version confirmation
 
 <img width="701" height="341" alt="Step 6 2 Installing Git" src="https://github.com/user-attachments/assets/4ea57bb4-c427-4729-84c6-d044bf94b15a" />
 
