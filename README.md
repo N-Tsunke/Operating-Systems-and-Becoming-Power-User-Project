@@ -1,5 +1,5 @@
 # Operating-Systems-and-Becoming-Power-User-Project
-# Course 3: Operating Systems and You – Becoming a Power User  
+
 ## Practical Task: User & File Management (Windows)
 
 ---
