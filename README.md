@@ -28,6 +28,9 @@ All tasks were performed using the Windows Command Prompt with administrative pr
 
 # Step 1: Open Command Prompt as Administrator
 
+**Command Prompt:**
+The Command Prompt provides direct interaction with the operating system for executing system-level commands. Running it as **Administrator** grants elevated permissions required for creating users, modifying groups, changing folder permissions, and installing software.  
+
 **Screenshot:** Administrator Command Prompt window 
 
 <img width="435" height="145" alt="Step 1 Command prompt" src="https://github.com/user-attachments/assets/cef2aee5-c9e2-4fd8-a386-283553a959d3" />
@@ -36,11 +39,8 @@ All tasks were performed using the Windows Command Prompt with administrative pr
 
 # Step 2: Create a New User
 
-### Command Breakdown:
-- `net user` → Manages user accounts
-- `student1` → Username created
-- `Password123` → Assigned password
-- `/add` → Creates the account
+**Description:**  
+This creates a new local user (`student1`) by adding an entry to Windows’ Security Accounts Manager (SAM), assigning a unique SID, hashing the password securely, and giving default Users group membership.  
 
 This confirms the new local user account was created.
 
@@ -58,11 +58,8 @@ The username `student1` appears in the list of accounts.
 
 ### Command Used: net localgroup Administrators student1 /add
 
-### Command Breakdown:
-- `net localgroup` → Manages local groups
-- `Administrators` → Group with full system privileges
-- `student1` → User being added
-- `/add` → Adds user to group
+**Description:**  
+Adds `student1` to the Administrators group, granting full system privileges. This demonstrates understanding of group management, privilege escalation, and access control.  
 
 This confirms `student1` now has administrative privileges.
 
@@ -80,6 +77,9 @@ This confirms `student1` now has administrative privileges.
 
 ### Command Used:mkdir C:\ProjectFolder
 
+**Description:**  
+Creates a folder `ProjectFolder` in C:\ using the CLI, demonstrating file system management via command line.  
+
 New folder named `ProjectFolder` in the C:\ directory have been created.
 
 ### Verification:dir C:\
@@ -96,12 +96,8 @@ The folder `ProjectFolder` appears in the directory listing.
 
 ### Command Used:icacls C:\ProjectFolder /grant student1:F
 
-### Command Breakdown:
-- `icacls` → Tool for managing file and folder permissions
-- `C:\ProjectFolder` → Target folder
-- `/grant` → Grants specified permissions
-- `student1` → User receiving permissions
-- `F` → Full control access
+**Description:**  
+Grants `student1` **full control** over the folder, updating Access Control Lists (ACLs) to manage permissions securely. Demonstrates understanding of file system security and user access management.  
 
 This confirms that `student1` has full control over the folder.
 
